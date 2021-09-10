@@ -14,6 +14,7 @@
       ./configs/gpu-acceleration.nix
       ./configs/kvm.nix
       ./configs/user.nix
+      ./configs/fonts.nix
     ];
   # Set NixOS CN Mirror
   nix.binaryCaches = [ "https://mirrors.tuna.tsinghua.edu.cn/nix-channels/store" ];
@@ -38,7 +39,7 @@
     file
     coreutils
     vim
-    vscodium-with-extensions
+    vscode-with-extensions
     git aria
     gcc gdb clang clang-tools cmake
     vscode postman
