@@ -24,3 +24,4 @@
     enable = true;
     enableSSHSupport = true;
   };
+}

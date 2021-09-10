@@ -8,7 +8,7 @@
   services.xserver.displayManager.gdm.enable = true;
 
   # Gnome Shell Extensions
-  environment.systemPackages = [
+  environment.systemPackages = with pkgs; [
     gnomeExtensions.dash-to-dock
     gnomeExtensions.gsconnect
     gnomeExtensions.mpris-indicator-button
@@ -16,4 +16,4 @@
 
   # Keyboard Map
   services.xserver.layout = "us";
-};
+}
