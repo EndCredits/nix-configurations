@@ -42,6 +42,7 @@
     git aria
     gcc gdb clang clang-tools cmake
     vscode postman
+    firefox
   ];
 
   # System Updates and Auto GC
