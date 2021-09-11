@@ -107,3 +107,4 @@ This may be because your computer has too many CPU cores (>= 32), you can try th
 ```
 sudo nixos-install --max-jobs 32 --cores 32
 ```
+---
