@@ -22,7 +22,6 @@
             noto-fonts-emoji
             wqy_microhei
             wqy_zenhei
-            nerdfonts # 图标字体
             symbola  # 特殊字符
         ];
   };
