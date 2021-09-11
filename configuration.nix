@@ -35,7 +35,7 @@
     netease-music-tui
     vlc
     obs-studio
-    libreoffice typora
+    typora
     file
     coreutils
     vim
