@@ -1,6 +1,6 @@
-## Crepuscular's NixOS Install Configurations
+# Crepuscular's NixOS Install Configurations
 
-### My Hardware
+## My Hardware
  - CPU: Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz x2
  - MotherBoard Chipset: Intel X79
  - Memory: Samsang DDR3 16GB 1333Mhz x3
@@ -9,11 +9,15 @@
  - Network: Realtek RTL8106e Network Adaptor
  - Graphic: Nvidia Geforce GTX 1660Ti
 
-### What included
+---
+
+## What included
 
 Please check repository context
 
-### How to use
+---
+
+## How to use
 
 Check your partition table frist
 
@@ -87,3 +91,19 @@ sudo nixos-generate-config --root /mnt
 And then modify configs if you need.
 
 Then you can install NixOS following the official guide
+
+---
+
+## Troubleshooting
+
+### 1. Report an error 
+
+```
+error: all build users are currently in use; consider creating additional users and adding them to the 'nixbld' group
+```
+
+This may be because your computer has too many CPU cores (>= 32), you can try the following installation command
+
+```
+sudo nixos-install --max-jobs 32 --cores 32
+```
