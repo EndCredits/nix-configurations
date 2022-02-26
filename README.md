@@ -1,14 +1,5 @@
 # Crepuscular's NixOS Install Configurations
 
-## My Hardware
- - CPU: Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz x2
- - MotherBoard Chipset: Intel X79
- - Memory: Samsang DDR3 16GB 1333Mhz x3
- - HDD0: Seagate ST2000DM008-2FR1 4.0TB
- - HDD1: Western Digital WDC WD10EZEX-00B 1.0TB
- - Network: Realtek RTL8106e Network Adaptor
- - Graphic: Nvidia Geforce GTX 1660Ti
-
 ---
 
 ## What included

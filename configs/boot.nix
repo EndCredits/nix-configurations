@@ -4,6 +4,9 @@
   # Disable Systemd bootloader
   boot.loader.systemd-boot.enable = false;
 
+  # Update Micro code for AMD CPU
+  hardware.cpu.amd.updateMicrocode = true;
+
   # GRUB Bootloader
   boot.loader = {
     efi.canTouchEfiVariables = true;

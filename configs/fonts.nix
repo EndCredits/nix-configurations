@@ -23,6 +23,7 @@
             wqy_microhei
             wqy_zenhei
             symbola  # 特殊字符
+            jetbrains-mono
         ];
   };
 }
