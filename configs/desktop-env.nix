@@ -14,12 +14,18 @@
     gnomeExtensions.mpris-indicator-button
   ];
 
-  # Gnome tweaks
-  environment.systemPackages = with pkgs; [ gnome-tweaks ];
+  # Packages for Desktop Environment
+  environment.systemPackages = with pkgs; [ gnome-tweaks ibus ibus-engines.rime ];
 
   # Keyboard Map
   services.xserver.layout = "us";
 
   # Enable touch pads
   services.xserver.libinput.enable = true;
+
+  # Enable ibus input method
+  i18n.inputMethod = {
+    enabled = "ibus";
+    ibus.engines = with pkgs.ibus-engines; [ ibus ];
+  };
 }
