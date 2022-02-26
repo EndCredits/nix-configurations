@@ -8,7 +8,7 @@
   environment.systemPackages = with pkgs; [ qemu qemu_kvm virt-manager iproute ];
 
   virtualisation.libvirtd.enable = true;
-  virtualisation.libvirtd.qemuOvmf = true;
+  virtualisation.libvirtd.qemu.ovmf.enable = true;
 
   # Enable Docker
   virtualisation.docker.enable = true;
