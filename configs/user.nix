@@ -13,5 +13,5 @@
     home = "/home/crepuscular";
     description = "Crepuscular Hans"
     extraGroups = [ "wheel" "networkmanager" "docker" ];
-  }
+  };
 }

@@ -9,4 +9,8 @@
 
   virtualisation.libvirtd.enable = true;
   virtualisation.libvirtd.qemuOvmf = true;
+
+  # Enable Docker
+  virtualisation.docker.enable = true;
+  virtualisation.docker.enableOnBoot = true;
 }
