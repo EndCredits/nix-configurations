@@ -44,6 +44,7 @@
     vscode postman
     firefox
     fuse ntfs3g
+    fish
   ];
 
   # System Updates and Auto GC

@@ -1,4 +1,4 @@
-{ ... }:
+{config, lib, pkgs,  ... }:
 
 {
   networking.hostName = "crepuscular-nixos"; # Define your hostname.
@@ -8,10 +8,24 @@
   # networking.proxy.allProxy = "http://127.0.0.1:8889";
   # networking.proxy.noProxy = "127.0.0.1,localhost";
   
-  users.users.crepuscular = {
-    isNormalUser = true;
-    home = "/home/crepuscular";
-    description = "Crepuscular Hans";
-    extraGroups = [ "wheel" "networkmanager" "docker" ];
+  users.users = {
+    crepuscular = {
+      isNormalUser = true;
+      home = "/home/crepuscular";
+      description = "Crepuscular Hans";
+      extraGroups = [ "wheel" "networkmanager" "docker" ];
+    };
   };
+  
+  # Enable fish for the default shell
+  programs.fish = {
+    enable = true;
+    useBabelfish = true;
+    vendor = {
+      completions.enable = true;
+      config.enable = true;
+      functions.enable = true;
+    };
+  };
+  users.defaultUserShell = pkgs.fish;
 }
