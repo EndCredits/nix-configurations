@@ -45,6 +45,7 @@
     firefox
     fuse ntfs3g
     fish
+    netease-cloud-music-gtk
   ];
 
   # System Updates and Auto GC
