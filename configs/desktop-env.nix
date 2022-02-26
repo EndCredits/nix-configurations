@@ -15,6 +15,8 @@
     gnome.gnome-tweaks
     ibus
     ibus-engines.rime
+    gtk-engine-murrine
+    gnome-themes-extra
   ];
 
   # Keyboard Map
