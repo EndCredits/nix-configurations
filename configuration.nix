@@ -43,6 +43,7 @@
     gcc gdb clang clang-tools cmake
     vscode postman
     firefox
+    fuse ntfs-3g
   ];
 
   # System Updates and Auto GC
