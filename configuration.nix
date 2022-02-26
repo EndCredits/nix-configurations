@@ -46,6 +46,7 @@
     fuse ntfs3g
     fish
     netease-cloud-music-gtk
+    mautrix-telegram
   ];
 
   # System Updates and Auto GC
