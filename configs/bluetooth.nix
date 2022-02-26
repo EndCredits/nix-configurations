@@ -8,5 +8,5 @@
 
   # Enable blueman service
   services.blueman.enable = true;
-  hardware.bluetooth.package = with pkgs; [ bluezFull ];
+  hardware.bluetooth.package = pkgs.bluezFull;
 }
