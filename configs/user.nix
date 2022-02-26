@@ -11,7 +11,7 @@
   users.users.crepuscular = {
     isNormalUser = true;
     home = "/home/crepuscular";
-    description = "Crepuscular Hans"
+    description = "Crepuscular Hans";
     extraGroups = [ "wheel" "networkmanager" "docker" ];
   };
 }
