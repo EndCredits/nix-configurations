@@ -40,7 +40,7 @@
     vim
     vscode-with-extensions
     git aria
-    gcc gdb clang clang-tools cmake
+    gcc gdb clang_13 clang-analyzer clang-tools cmake
     vscode postman
     firefox
     fuse ntfs3g
