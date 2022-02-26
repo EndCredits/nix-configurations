@@ -14,6 +14,9 @@
     gnomeExtensions.mpris-indicator-button
   ];
 
+  # Gnome tweaks
+  environment.systemPackages = with pkgs; [ gnome-tweaks ];
+
   # Keyboard Map
   services.xserver.layout = "us";
 
