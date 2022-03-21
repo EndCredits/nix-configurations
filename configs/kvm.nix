@@ -5,7 +5,7 @@
   boot.kernelModules = [ "acpi_call" "kvm-amd" ];
 
   # KVM Software packages
-  environment.systemPackages = with pkgs; [ qemu qemu_kvm virt-manager iproute ];
+  environment.systemPackages = with pkgs; [ qemu qemu_kvm virt-manager iproute virtualbox ];
 
   virtualisation.libvirtd.enable = true;
   virtualisation.libvirtd.qemu.ovmf.enable = true;
