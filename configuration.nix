@@ -16,6 +16,7 @@
       ./configs/kvm.nix
       ./configs/user.nix
       ./configs/fonts.nix
+      ./configs/partition.nix
     ];
   # Set NixOS CN Mirror
   nix.binaryCaches = [ "https://mirrors.tuna.tsinghua.edu.cn/nix-channels/store" ];
@@ -46,7 +47,8 @@
     fuse ntfs3g
     fish
     netease-cloud-music-gtk
-    mautrix-telegram
+    tdesktop python3
+    android-tools
   ];
 
   # System Updates and Auto GC
