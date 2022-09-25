@@ -58,7 +58,7 @@
    nix.gc.dates = "05:15";
 
    nix.extraOptions = ''
-      experimental-features = nix-command
+      experimental-features = nix-command flakes
    '';
 
   # This value determines the NixOS release from which the default
