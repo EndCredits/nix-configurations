@@ -44,6 +44,7 @@
     gcc gdb clang_13 clang-analyzer clang-tools cmake gnumake unzip
     vscode postman
     firefox
+    google-chrome
     fuse ntfs3g
     fish
     netease-cloud-music-gtk
