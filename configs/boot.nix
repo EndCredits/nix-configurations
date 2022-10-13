@@ -7,6 +7,9 @@
   # Update Micro code for AMD CPU
   hardware.cpu.amd.updateMicrocode = true;
 
+  # Boot kernel
+  boot.kernelPackages = pkgs.linuxPackages_latest;
+
   # GRUB Bootloader
   boot.loader = {
     efi.canTouchEfiVariables = true;
