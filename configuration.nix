@@ -31,25 +31,34 @@
     vaapiIntel = pkgs.vaapiIntel.override { enableHybridCodec = true; };
   };
   environment.systemPackages = with pkgs; [
+    artha
     wget
-    neofetch htop
-    netease-music-tui
+    neofetch
     vlc
     obs-studio
     file
     coreutils
     vim
-    vscode-with-extensions
     git aria
-    gcc gdb clang_13 clang-analyzer clang-tools cmake gnumake unzip
-    vscode postman
+    gcc gdb clang_14 clang-analyzer clang-tools cmake gnumake unzip
+    postman
     firefox
     google-chrome
     fuse ntfs3g
     fish
-    netease-cloud-music-gtk
-    tdesktop python3
+    tdesktop
     android-tools
+    nodejs
+    geogebra6
+    python310 python310.pkgs.pip pipenv
+    jadx apktool meld
+
+    # VSCode additions
+    vscode vscode-with-extensions vscode-extensions.ms-vscode.cpptools vscode-extensions.golang.go vscode-extensions.ms-python.python 
+  ];
+
+  nixpkgs.config.permittedInsecurePackages = [
+    "electron-14.2.9"
   ];
 
   # System Updates and Auto GC
