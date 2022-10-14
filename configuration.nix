@@ -17,6 +17,7 @@
       ./configs/user.nix
       ./configs/fonts.nix
       ./configs/partition.nix
+      ./configs/vscode.nix
     ];
   # Set NixOS CN Mirror
   nix.binaryCaches = [ "https://mirrors.tuna.tsinghua.edu.cn/nix-channels/store" ];
@@ -28,7 +29,6 @@
       proprietaryCodecs = true;
       enableWideVine = true;
     };
-    vaapiIntel = pkgs.vaapiIntel.override { enableHybridCodec = true; };
   };
   environment.systemPackages = with pkgs; [
     artha
@@ -52,10 +52,7 @@
     geogebra6
     python310 python310.pkgs.pip pipenv
     jadx apktool meld
-
-    # VSCode additions
-    vscode vscode-with-extensions vscode-extensions.ms-vscode.cpptools vscode-extensions.golang.go vscode-extensions.ms-python.python 
-  ];
+  ];  
 
   nixpkgs.config.permittedInsecurePackages = [
     "electron-14.2.9"
