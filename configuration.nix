@@ -52,6 +52,7 @@
     geogebra6
     python310 python310.pkgs.pip pipenv
     jadx apktool meld
+    go_1_18
   ];  
 
   nixpkgs.config.permittedInsecurePackages = [
@@ -60,8 +61,10 @@
 
   # System Updates and Auto GC
    system.autoUpgrade.enable = false;
+   nix.settings.auto-optimise-store = true;
    nix.gc.automatic = true;
-   nix.gc.dates = "05:15";
+   nix.gc.dates = "daily";
+   nix.gc.options = "--delete-older-than 3d";
 
    nix.extraOptions = ''
       experimental-features = nix-command flakes
