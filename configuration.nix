@@ -38,7 +38,7 @@
     obs-studio
     file
     coreutils
-    vim
+    nvim
     git aria
     gcc gdb clang_14 clang-analyzer clang-tools cmake gnumake unzip
     postman
