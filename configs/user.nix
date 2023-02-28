@@ -12,7 +12,7 @@
     crepuscular = {
       isNormalUser = true;
       home = "/home/crepuscular";
-      description = "Crepuscular Hans";
+      description = "Crepuscular Hana";
       extraGroups = [ "wheel" "networkmanager" "docker" ];
     };
   };

@@ -7,7 +7,7 @@
         fontconfig = {
  	    enable = true;
 	    defaultFonts.emoji = [ "Noto Color Emoji" ];
-            defaultFonts.monospace = [ "Hack" "Sarasa Mono SC" ];
+            defaultFonts.monospace = [ "Caskaydia Cove Nerd Font" "Hack" "Sarasa Mono SC" ];
             #defaultFonts.sansSerif = [ "Inter" "Liberation Sans" "Soruce Han Sans SC" ];
             #defaultFonts.serif = [ "Liberation Serif" "Source Han Serif SC" ];
 
@@ -25,6 +25,7 @@
             symbola  # 特殊字符
             jetbrains-mono
             ubuntu_font_family
+            nerdfonts
         ];
   };
 }
