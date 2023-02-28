@@ -40,7 +40,7 @@
     coreutils
     nvim
     git aria
-    gcc gdb clang_14 clang-analyzer clang-tools cmake gnumake unzip
+    gcc gdb clang_16 clang-analyzer clang-tools cmake gnumake unzip
     postman
     firefox
     google-chrome
@@ -52,7 +52,7 @@
     geogebra6
     python310 python310.pkgs.pip pipenv
     jadx apktool meld
-    go_1_18
+    go_1_19
   ];  
 
   nixpkgs.config.permittedInsecurePackages = [
