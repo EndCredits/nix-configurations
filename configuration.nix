@@ -20,7 +20,7 @@
       ./configs/vscode.nix
     ];
   # Set NixOS CN Mirror
-  nix.binaryCaches = [ "https://mirrors.tuna.tsinghua.edu.cn/nix-channels/store" ];
+  nix.settings.substituters = [ "https://mirrors.tuna.tsinghua.edu.cn/nix-channels/store" ];
 
   # Allow non-free software
   nixpkgs.config = {
