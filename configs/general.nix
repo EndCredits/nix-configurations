@@ -5,7 +5,7 @@
   time.timeZone = "Asia/Shanghai";
 
   # Set Filesystem support
-  boot.supportedFilesystems = [ "ntfs" "xfs" "btrfs"];
+  boot.supportedFilesystems = [ "ntfs" "xfs" "btrfs" "f2fs" ];
 
   # CUPS Printing services
   services.printing.enable = true;

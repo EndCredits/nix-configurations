@@ -16,7 +16,6 @@
       ./configs/kvm.nix
       ./configs/user.nix
       ./configs/fonts.nix
-      ./configs/partition.nix
       ./configs/vscode.nix
     ];
   # Set NixOS CN Mirror
@@ -38,9 +37,9 @@
     obs-studio
     file
     coreutils
-    nvim
+    neovim
     git aria
-    gcc gdb clang_16 clang-analyzer clang-tools cmake gnumake unzip
+    gcc gdb clang_15 clang-analyzer clang-tools cmake gnumake unzip
     postman
     firefox
     google-chrome

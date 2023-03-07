@@ -7,7 +7,8 @@
   # Configure proxy for using Qv2ray
   # networking.proxy.allProxy = "http://127.0.0.1:8889";
   # networking.proxy.noProxy = "127.0.0.1,localhost";
-  
+  # networking.proxy.default = "http://192.168.2.126:9080";
+
   users.users = {
     crepuscular = {
       isNormalUser = true;

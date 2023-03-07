@@ -7,7 +7,7 @@
         fontconfig = {
  	    enable = true;
 	    defaultFonts.emoji = [ "Noto Color Emoji" ];
-            defaultFonts.monospace = [ "Caskaydia Cove Nerd Font" "Hack" "Sarasa Mono SC" ];
+            defaultFonts.monospace = [ "CaskaydiaCove Nerd Font Mono" "Hack" "Sarasa Mono SC" ];
             #defaultFonts.sansSerif = [ "Inter" "Liberation Sans" "Soruce Han Sans SC" ];
             #defaultFonts.serif = [ "Liberation Serif" "Source Han Serif SC" ];
 
