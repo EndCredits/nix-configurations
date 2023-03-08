@@ -52,6 +52,7 @@
     python310 python310.pkgs.pip pipenv
     jadx apktool meld
     go_1_19
+    kitty kitty-themes
   ];  
 
   nixpkgs.config.permittedInsecurePackages = [
