@@ -29,6 +29,7 @@
       enableWideVine = true;
     };
   };
+	
   environment.systemPackages = with pkgs; [
     artha
     wget
@@ -53,6 +54,7 @@
     jadx apktool meld
     go_1_19
     kitty kitty-themes
+    yesplaymusic
   ];  
 
   nixpkgs.config.permittedInsecurePackages = [
