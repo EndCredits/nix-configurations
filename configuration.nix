@@ -51,7 +51,7 @@
     nodejs
     geogebra6
     python310 python310.pkgs.pip pipenv
-    jadx apktool meld
+    jadx meld
     go_1_19
     kitty kitty-themes
     yesplaymusic
