@@ -52,9 +52,10 @@
     geogebra6
     python310 python310.pkgs.pip pipenv
     jadx meld
-    go_1_19
+    go_1_20
     kitty kitty-themes
     yesplaymusic
+    ffmpeg_6-full
   ];  
 
   nixpkgs.config.permittedInsecurePackages = [
