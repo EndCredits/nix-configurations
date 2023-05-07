@@ -56,6 +56,7 @@
     kitty kitty-themes
     yesplaymusic
     ffmpeg_6-full
+    sublime4
   ];  
 
   nixpkgs.config.permittedInsecurePackages = [
