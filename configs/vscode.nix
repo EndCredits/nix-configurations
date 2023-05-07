@@ -4,7 +4,6 @@
   environment.systemPackages = with pkgs; [
     (vscode-with-extensions.override {
       vscodeExtensions = with vscode-extensions; [
-        ms-python.python
 	vscodevim.vim
       	yzhang.markdown-all-in-one
       	ms-vscode.cpptools
