@@ -32,7 +32,7 @@
 	
   environment.systemPackages = with pkgs; [
     artha
-    wget
+    wget iw
     neofetch
     vlc
     obs-studio
