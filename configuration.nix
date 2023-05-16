@@ -35,10 +35,11 @@
     wget iw
     neofetch
     vlc
-    obs-studio
+    obs-studio grim
     file
     coreutils
     neovim
+    dolphin
     git aria
     gcc gdb clang_15 clang-analyzer clang-tools cmake gnumake unzip
     postman
