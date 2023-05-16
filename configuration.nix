@@ -46,7 +46,7 @@
     google-chrome
     fuse ntfs3g
     fish
-    tdesktop
+    tdesktop qq
     android-tools
     nodejs
     geogebra6
