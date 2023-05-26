@@ -37,7 +37,7 @@
     vlc
     obs-studio grim
     file
-    coreutils
+    coreutils openssl openssl_legacy
     neovim
     dolphin
     git aria
@@ -61,7 +61,8 @@
   ];  
 
   nixpkgs.config.permittedInsecurePackages = [
-    "electron-14.2.9"
+    "electron-14.2.9" 
+    "openssl-1.1.1t"
   ];
 
   # System Updates and Auto GC
