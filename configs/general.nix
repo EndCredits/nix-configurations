@@ -24,4 +24,6 @@
     enable = true;
     enableSSHSupport = true;
   };
+
+  services.v2raya.enable = true;
 }

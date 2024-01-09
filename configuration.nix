@@ -58,6 +58,7 @@
     yesplaymusic
     ffmpeg_6-full
     sublime4
+    v2raya
   ];  
 
   nixpkgs.config.permittedInsecurePackages = [
