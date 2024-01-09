@@ -43,7 +43,6 @@
     dolphin
     git aria
     gcc gdb clang_15 clang-analyzer clang-tools cmake gnumake unzip
-    postman
     firefox
     google-chrome
     fuse ntfs3g
