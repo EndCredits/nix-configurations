@@ -64,6 +64,7 @@
   nixpkgs.config.permittedInsecurePackages = [
     "electron-14.2.9" 
     "openssl-1.1.1t"
+    "openssl-1.1.1w"
   ];
 
   # System Updates and Auto GC
