@@ -18,8 +18,9 @@
       ./configs/fonts.nix
       ./configs/vscode.nix
     ];
-  # Set NixOS CN Mirror
-  nix.settings.substituters = [ "https://mirrors.tuna.tsinghua.edu.cn/nix-channels/store" ];
+
+  # Trust me, I know what I'm doing
+  nix.settings.trusted-users = [ "endcredits" ];
 
   # Allow non-free software
   nixpkgs.config = {

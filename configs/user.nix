@@ -10,9 +10,9 @@
   # networking.proxy.default = "http://192.168.2.126:9080";
 
   users.users = {
-    crepuscular = {
+    endcredits = {
       isNormalUser = true;
-      home = "/home/crepuscular";
+      home = "/home/endcredits";
       description = "Crepuscular Hana";
       extraGroups = [ "wheel" "networkmanager" "docker" ];
     };
