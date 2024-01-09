@@ -12,7 +12,7 @@
   environment.systemPackages = with pkgs; [
     dunst pipewire wireplumber swaybg waybar rofi-wayland polkit-kde-agent udiskie
     qt6.qtwayland wl-clipboard wayland wayland-scanner wayland-utils egl-wayland wayland-protocols
-    glfw-wayland xwayland wev wf-recorder alsa-lib alsa-utils mako libsForQt5.qt5.qtwayland xdg-desktop-portal-hyprland libsForQt5.polkit-kde-agent brightnessctl libnotify
+    glfw-wayland xwayland wev wf-recorder alsa-lib alsa-utils mako libsForQt5.qt5.qtwayland xdg-desktop-portal-hyprland libsForQt5.polkit-kde-agent brightnessctl libnotify wofi
   ];
 
   # Keyboard Map
