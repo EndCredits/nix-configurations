@@ -8,15 +8,7 @@
   imports =
     [ # Include the results of the hardware scan.
       ./hardware-configuration.nix
-      ./configs/bluetooth.nix
-      ./configs/boot.nix
-      ./configs/desktop-env.nix
-      ./configs/general.nix
-      ./configs/gpu-acceleration.nix
-      ./configs/kvm.nix
-      ./configs/user.nix
-      ./configs/fonts.nix
-      ./configs/vscode.nix
+      ./configs/configs.nix
     ];
 
   # Trust me, I know what I'm doing
