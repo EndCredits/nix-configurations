@@ -113,6 +113,7 @@
           # old configuration file can still take effect.
           # Note: configuration.nix itself is also a Nixpkgs Module,
           ./configuration.nix
+	  (args: { nixpkgs.overlays = import ./overlays args; })
         ];
       };
     };
