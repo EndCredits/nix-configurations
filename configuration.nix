@@ -35,8 +35,7 @@
     dolphin
     git aria
     gcc gdb clang_15 clang-analyzer clang-tools cmake gnumake unzip
-    firefox
-    google-chrome
+    firefox google-chrome
     fuse ntfs3g
     fish
     tdesktop qq
@@ -45,12 +44,13 @@
     geogebra6
     python310 python310.pkgs.pip pipenv
     jadx meld
-    go_1_20
     kitty kitty-themes
     yesplaymusic
     ffmpeg_6-full
     sublime4
     v2raya
+    p7zip
+    patchelf
   ];  
 
   nixpkgs.config.permittedInsecurePackages = [
