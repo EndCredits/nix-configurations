@@ -2,7 +2,7 @@
 # your system.  Help is available in the configuration.nix(5) man page
 # and in the NixOS manual (accessible by running ‘nixos-help’).
 
-{ config, pkgs, ... }:
+{ config, pkgs, r3playx, ... }:
 
 {
   imports =
@@ -51,6 +51,7 @@
     v2raya
     p7zip
     patchelf
+    r3playx.packages."${pkgs.system}".r3playx
   ];  
 
   nixpkgs.config.permittedInsecurePackages = [

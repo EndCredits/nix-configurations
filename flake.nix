@@ -41,6 +41,7 @@
       # to avoid problems caused by different versions of nixpkgs.
       inputs.nixpkgs.follows = "nixpkgs";
     };
+    r3playx.url = "github:EndCredits/R3PLAYX-nix/master";
   };
 
   # `outputs` are all the build result of the flake.
@@ -108,6 +109,7 @@
         # you must use `specialArgs` by uncomment the following line:
         #
         # specialArgs = {...};  # pass custom arguments into all sub module.
+        specialArgs = inputs;
         modules = [
           # Import the configuration.nix here, so that the
           # old configuration file can still take effect.
