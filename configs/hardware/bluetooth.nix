@@ -6,6 +6,8 @@
   # hardware.bluetooth.hsphfpd.enable = true;
   hardware.bluetooth.powerOnBoot = true;
 
-  # Enable blueman service
-  services.blueman.enable = true;
+  hardware.bluetooth.settings = {
+    General.Experimental = "true";
+    Policy.AudioEnable = "true";
+  };
 }
