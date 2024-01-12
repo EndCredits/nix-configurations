@@ -47,7 +47,7 @@
     kitty kitty-themes
     yesplaymusic
     ffmpeg_6-full
-    sublime4
+    sublime4 helix
     v2raya
     p7zip
     patchelf
