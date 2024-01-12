@@ -40,5 +40,6 @@
     GDK_BACKEND="wayland";
     MOZ_ENABLE_WAYLAND = "1";
     QT_SCALE_FACTOR = "1";
+    NIXOS_OZONE_WL = "1";
   };
 }
