@@ -58,11 +58,11 @@
         "nixpkgs": "nixpkgs_2"
       },
       "locked": {
-        "lastModified": 1705080169,
-        "narHash": "sha256-K0C1ScSPrY7YF+VhCRPHYFXnC1r9uTHcJPoCc/JHZCg=",
+        "lastModified": 1705081882,
+        "narHash": "sha256-m6DwSyQeNLQhc3WdU2ryAriOnMAnBNjTRKlM5y3Lxto=",
         "owner": "EndCredits",
         "repo": "R3PLAYX-nix",
-        "rev": "ff869737361ed020aaf9fcaa4204408319eb1e78",
+        "rev": "a13c495cf1bf95f63aeb3fe4838168b43804d884",
         "type": "github"
       },
       "original": {
