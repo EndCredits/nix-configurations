@@ -52,6 +52,7 @@
     p7zip
     patchelf
     r3playx.packages."${pkgs.system}".r3playx
+    localsend
   ];  
 
   nixpkgs.config.permittedInsecurePackages = [
