@@ -12,4 +12,7 @@
   };
 
   hardware.bluetooth.package = pkgs.bluez;
+
+    # Enable blueman service
+  services.blueman.enable = true;
 }
