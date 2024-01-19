@@ -10,4 +10,6 @@
     General.Experimental = "true";
     Policy.AudioEnable = "true";
   };
+
+  hardware.bluetooth.package = pkgs.bluez;
 }
