@@ -14,7 +14,7 @@
       isNormalUser = true;
       home = "/home/endcredits";
       description = "Crepuscular Hana";
-      extraGroups = [ "wheel" "networkmanager" "docker" "audio" ];
+      extraGroups = [ "wheel" "networkmanager" "docker" "audio" "adbusers" ];
     };
   };
   
