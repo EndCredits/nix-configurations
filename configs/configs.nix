@@ -11,6 +11,7 @@
 		./hardware/user.nix
 
 		# include user configured applications
+		./applications/adb.nix
 		./applications/desktop-env.nix
 		./applications/fonts.nix
 		./applications/general.nix
