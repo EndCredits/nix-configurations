@@ -40,7 +40,7 @@
     fish
     tdesktop qq
     android-tools
-    nodejs
+    nodejs_18 corepack_18
     geogebra6
     python310 python310.pkgs.pip pipenv
     jadx meld
