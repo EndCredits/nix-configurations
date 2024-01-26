@@ -31,7 +31,7 @@
 
   # Enable Hyprland
   programs.hyprland.enable = true;
-  xdg.portal.extraPortals = [ pkgs.xdg-desktop-portal-hyprland ];
+  xdg.portal.extraPortals = with pkgs; [ xdg-desktop-portal-hyprland xdg-desktop-portal-gtk ];
 
   environment.variables = {
     QT_AUTO_SCREEN_SCALE_FACTOR="1";
