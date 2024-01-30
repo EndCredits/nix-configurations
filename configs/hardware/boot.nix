@@ -11,6 +11,9 @@
   boot.kernelPackages = pkgs.linuxPackages_zen;
   boot.initrd.kernelModules = [ "amdgpu" ];
 
+  # Firmware
+  hardware.enableRedistributableFirmware  = true;
+
   boot.binfmt.emulatedSystems = [ "aarch64-linux" ];
 
   # GRUB Bootloader
