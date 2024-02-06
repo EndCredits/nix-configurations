@@ -17,9 +17,6 @@
     libsForQt5.polkit-kde-agent brightnessctl libnotify wofi
   ];
 
-  # Keyboard Map
-  services.xserver.layout = "us";
-
   # Enable touch pads
   services.xserver.libinput.enable = true;
 
