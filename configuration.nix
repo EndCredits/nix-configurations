@@ -47,7 +47,7 @@
     kitty kitty-themes
     yesplaymusic
     ffmpeg_6-full
-    sublime4 helix
+    sublime4 helix obsidian
     v2raya
     p7zip
     patchelf
@@ -57,6 +57,7 @@
 
   nixpkgs.config.permittedInsecurePackages = [
     "electron-14.2.9" 
+    "electron-25.9.0"
     "openssl-1.1.1t"
     "openssl-1.1.1w"
   ];
