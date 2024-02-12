@@ -5,8 +5,20 @@
 
   # Enable GDM DesktopManager
   services.xserver.displayManager.gdm.enable = true;
-  services.pipewire.enable = true;
-  services.pipewire.wireplumber.enable = true;
+  
+  # Enable pipewire backend
+  services = {
+    pipewire = {
+      enable = true;
+      audio.enable = true;
+      pulse.enable = true;
+      alsa = {
+        enable = true;
+        support32Bit = true;
+      };
+      jack.enable = true;
+    };
+  };
 
   # Gnome Shell Extensions and packages
   environment.systemPackages = with pkgs; [

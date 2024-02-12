@@ -12,8 +12,6 @@
 
   # Sound Support
   sound.enable = true;
-  hardware.pulseaudio.enable = true;
-  hardware.pulseaudio.package = pkgs.pulseaudioFull;
 
   # Enable the OpenSSH daemon.
   services.openssh.enable = true;
