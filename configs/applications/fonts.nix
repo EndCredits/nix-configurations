@@ -5,18 +5,20 @@
   fonts = {
         enableDefaultPackages = true;
         fontconfig = {
- 	    enable = true;
-	    defaultFonts.emoji = [ "Noto Color Emoji" ];
-            defaultFonts.monospace = [ "CaskaydiaCove Nerd Font Mono" "Hack" "Sarasa Mono SC" ];
-            #defaultFonts.sansSerif = [ "Inter" "Liberation Sans" "Soruce Han Sans SC" ];
-            #defaultFonts.serif = [ "Liberation Serif" "Source Han Serif SC" ];
+ 	        enable = true;
+	        defaultFonts = {
+            serif = [ "LXGW Neo XiHei" "Noto Sans CJK SC" ];
+	          sansSerif = [ "LXGW Neo XiHei" "Noto Sans CJK SC"];
+	          emoji = [ "Noto Color Emoji" ];
+            monospace = [ "CaskaydiaCove Nerd Font Mono" "Hack" "Sarasa Mono SC" ];
+          };
 
 	};
-
         fontDir.enable = true;
         enableGhostscriptFonts = true;
         packages = with pkgs; [
             sarasa-gothic
+            lxgw-neoxihei
             noto-fonts
             noto-fonts-cjk
             noto-fonts-emoji
