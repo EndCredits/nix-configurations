@@ -27,7 +27,7 @@
     artha
     wget iw
     neofetch
-    vlc
+    vlc jamesdsp
     obs-studio grim
     file
     coreutils openssl openssl_legacy
