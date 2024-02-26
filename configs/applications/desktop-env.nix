@@ -26,7 +26,7 @@
     qt6.qtwayland wl-clipboard wayland wayland-scanner wayland-utils egl-wayland wayland-protocols
     glfw-wayland xwayland wev wf-recorder alsa-lib alsa-utils mako libsForQt5.qt5.qtwayland
     xdg-desktop-portal-hyprland xdg-desktop-portal-gtk # For file chooser
-    libsForQt5.polkit-kde-agent brightnessctl libnotify wofi
+    libsForQt5.polkit-kde-agent brightnessctl libnotify wofi pavucontrol
   ];
 
   # Enable touch pads
