@@ -13,6 +13,7 @@
         vscode-extensions.bbenoist.nix
         vscode-extensions.arrterian.nix-env-selector
         vscode-extensions.jnoortheen.nix-ide
+        vscode-extensions.ms-python.python
       ];
     })
   ];
