@@ -16,5 +16,6 @@
 		./applications/fonts.nix
 		./applications/general.nix
 		./applications/vscode.nix
+		./applications/python.nix
 	];
 }

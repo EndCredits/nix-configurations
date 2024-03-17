@@ -27,7 +27,7 @@
             symbola  # 特殊字符
             jetbrains-mono
             ubuntu_font_family
-            nerdfonts
+            (nerdfonts.override { fonts = [ "CodeNewRoman" "CascadiaCode" ]; })
         ];
   };
 }
